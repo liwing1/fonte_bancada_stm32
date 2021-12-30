@@ -1,0 +1,47 @@
+* D:\Repos\fonte_bancada_stm32\hardware\Draft2.asc
+V2 N002 0 SINE(0 311 60) Rser=0.0001
+L1 N002 0 900µ
+L2 18Vac N005 3.35µ
+D1 0 18Vac D
+D2 18Vac N003 D
+D4 N005 N003 D
+D3 0 N005 D
+C4 N003 0 2200µ V=25
+Q1 N003 N001 12Vdc 0 2N3055
+R1 N004 N003 55
+D5 0 N004 UMZ18K
+C1 N004 0 100µ V=25
+R2 N001 N004 0.0001
+R3 0 N001 140
+C2 N001 0 10µ V=25
+C3 12Vdc 0 220µ V=25
+C5 12Vdc 0 100n
+XU2 N006 Vout 12Vdc LT317A
+R7 Vout N006 150
+R8 Vout 0 10k
+C10 Vout 0 1µ V=16
+C6 12Vdc 0 0.1µ V=16
+V1 N009 0 PULSE(0 3.3 0 .01m .01m 0u 1000u 1000)
+R4 N010 N009 100k
+C7 N010 0 1µ
+XU1 N010 N007 12Vdc N013 N008 TL07XH_TL08XH
+V3 N011 0 PULSE(0 3.3 0 .01m .01m 500u 1000u 1000)
+C8 N011 N012 100µ V=16
+D6 N012 0 1N4148
+D7 N013 N012 1N4148
+C9 0 N013 100µ V=16
+R5 N008 N007 2k
+R6 N007 0 11k
+V4 N006 0 -1.25
+.model D D
+.lib C:\Users\liwka\OneDrive\Documentos\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\liwka\OneDrive\Documentos\LTspiceXVII\lib\cmp\standard.bjt
+K L1 L2 1.
+.lib D:\Repos\fonte_bancada_stm32\hardware\SpiceModel_LM358.mod
+.tran 500m
+.include D:\Users\liwka\Downloads\slom513a\tl07xh_tl08xh.lib
+.lib LTC.lib
+.backanno
+.end

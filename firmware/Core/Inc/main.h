@@ -43,13 +43,15 @@ extern "C" {
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
 extern UART_HandleTypeDef huart1;
-
+extern TIM_HandleTypeDef htim2;
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
 /* USER CODE BEGIN EM */
 
 /* USER CODE END EM */
+
+void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
 
 /* Exported functions prototypes ---------------------------------------------*/
 void Error_Handler(void);
@@ -61,13 +63,12 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define LED_STATUS_Pin GPIO_PIN_13
 #define LED_STATUS_GPIO_Port GPIOC
-#define PWM_OUT_Pin GPIO_PIN_2
-#define PWM_OUT_GPIO_Port GPIOA
 #define DBG_TX_Pin GPIO_PIN_9
 #define DBG_TX_GPIO_Port GPIOA
 #define DBG_RX_Pin GPIO_PIN_10
 #define DBG_RX_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
+#define DELAY_1_SEG	1000
 
 /* USER CODE END Private defines */
 

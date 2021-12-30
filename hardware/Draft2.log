@@ -1,0 +1,129 @@
+Circuit: * D:\Repos\fonte_bancada_stm32\hardware\Draft2.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.666667
+Gmin = 3.4946
+vernier = 0.888888
+vernier = 1
+Gmin = 0.528136
+Gmin = 0.0567082
+Gmin = 0.006089
+vernier = 0.5
+Gmin = 0.00113507
+vernier = 0.25
+vernier = 0.333333
+vernier = 0.166667
+Gmin = 0.000773778
+vernier = 0.0833333
+vernier = 0.0416667
+vernier = 0.0208333
+vernier = 0.0104167
+Gmin = 0.000767769
+vernier = 0.00520833
+vernier = 0.00260417
+vernier = 0.00130208
+vernier = 0.000651042
+Gmin = 0.000768517
+vernier = 0.000868055
+vernier = 0.00115741
+Gmin = 0.000766921
+vernier = 0.00154321
+Gmin = 0.000764337
+vernier = 0.00205761
+vernier = 0.00274348
+Gmin = 0.000760123
+vernier = 0.00365797
+vernier = 0.0048773
+Gmin = 0.000753493
+vernier = 0.00650306
+Gmin = 0.000742858
+vernier = 0.00867074
+vernier = 0.011561
+Gmin = 0.000725768
+vernier = 0.0154146
+vernier = 0.00770732
+vernier = 0.00385366
+vernier = 0.00192683
+vernier = 0.000963415
+Gmin = 0.000713998
+vernier = 0.000481708
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 0.378788%
+Source Step = 0.852273%
+Source Step = 1.32576%
+Source Step = 1.79924%
+Source Step = 2.27273%
+vernier = 0.0234375
+Source Step = 2.91193%
+Source Step = 3.62216%
+Source Step = 4.33239%
+Source Step = 5.04261%
+Source Step = 5.75284%
+vernier = 0.0351563
+Source Step = 6.67614%
+Source Step = 7.74148%
+Source Step = 8.80682%
+Source Step = 9.87216%
+Source Step = 10.9375%
+vernier = 0.0527344
+Source Step = 12.2692%
+Source Step = 13.8672%
+Source Step = 15.4652%
+Source Step = 17.0632%
+Source Step = 18.6612%
+vernier = 0.0791016
+Source Step = 20.5788%
+Source Step = 22.9759%
+Source Step = 25.3729%
+Source Step = 27.7699%
+Source Step = 30.1669%
+vernier = 0.118652
+Source Step = 32.9235%
+Source Step = 36.519%
+Source Step = 40.1145%
+Source Step = 43.71%
+Source Step = 47.3056%
+vernier = 0.177979
+Source Step = 51.2607%
+Source Step = 56.6539%
+Source Step = 62.0472%
+Source Step = 67.4405%
+Source Step = 72.8338%
+vernier = 0.266968
+Source Step = 78.4968%
+Source Step = 86.5867%
+Source Step = 94.6766%
+Source stepping succeeded in finding the operating point.
+
+Heightened Def Con from 0.000525651 to 0.000525651
+Heightened Def Con from 0.000526163 +to 0.000526163
+Heightened Def Con from 0.00152417 to 0.00152417
+Heightened Def Con from 0.0015252 +to 0.0015252
+Heightened Def Con from 0.00152545 ++to 0.00152545
+
+Date: Thu Dec 30 14:07:03 2021
+Total elapsed time: 6.242 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 194951
+traniter = 190772
+tranpoints = 91056
+accept = 69331
+rejected = 21734
+matrix size = 168
+fillins = 277
+solver = Normal
+Thread vector: 15.5/9.8[5] 4.3/3.2[5] 3.6/2.4[5] 0.9/1.8[1]  2592/500
+Matrix Compiler1: 28.14 KB object code size  9.7/2.8/[1.3]
+Matrix Compiler2: 19.13 KB object code size  3.4/3.5/[1.2]
+
