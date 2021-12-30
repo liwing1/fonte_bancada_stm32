@@ -1,5 +1,6 @@
 Circuit: * D:\Repos\fonte_bancada_stm32\hardware\Draft2.asc
 
+WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for v1.  Increasing period to 0.00102
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -11,45 +12,50 @@ vernier = 1
 Gmin = 0.528136
 Gmin = 0.0567082
 Gmin = 0.006089
+Gmin = 0.000653801
 vernier = 0.5
-Gmin = 0.00113507
 vernier = 0.25
-vernier = 0.333333
-vernier = 0.166667
-Gmin = 0.000773778
-vernier = 0.0833333
-vernier = 0.0416667
-vernier = 0.0208333
-vernier = 0.0104167
-Gmin = 0.000767769
-vernier = 0.00520833
-vernier = 0.00260417
-vernier = 0.00130208
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.000673195
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 0.000669268
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0.000668126
 vernier = 0.000651042
-Gmin = 0.000768517
 vernier = 0.000868055
+Gmin = 0.000667084
 vernier = 0.00115741
-Gmin = 0.000766921
+Gmin = 0.000665398
 vernier = 0.00154321
-Gmin = 0.000764337
 vernier = 0.00205761
+Gmin = 0.000662645
 vernier = 0.00274348
-Gmin = 0.000760123
 vernier = 0.00365797
+Gmin = 0.000658305
 vernier = 0.0048773
-Gmin = 0.000753493
+Gmin = 0.000651322
 vernier = 0.00650306
-Gmin = 0.000742858
 vernier = 0.00867074
+Gmin = 0.000640048
 vernier = 0.011561
-Gmin = 0.000725768
 vernier = 0.0154146
-vernier = 0.00770732
-vernier = 0.00385366
-vernier = 0.00192683
-vernier = 0.000963415
-Gmin = 0.000713998
-vernier = 0.000481708
+Gmin = 0.000622588
+vernier = 0.0205529
+Gmin = 0.000595278
+vernier = 0.0274038
+vernier = 0.0137019
+vernier = 0.00685095
+vernier = 0.00342548
+vernier = 0.00171274
+vernier = 0.000856369
+Gmin = 0.000580228
+vernier = 0.000428184
 Gmin = 0
 Gmin stepping failed
 
@@ -103,27 +109,23 @@ Source Step = 86.5867%
 Source Step = 94.6766%
 Source stepping succeeded in finding the operating point.
 
-Heightened Def Con from 0.000525651 to 0.000525651
-Heightened Def Con from 0.000526163 +to 0.000526163
-Heightened Def Con from 0.00152417 to 0.00152417
-Heightened Def Con from 0.0015252 +to 0.0015252
-Heightened Def Con from 0.00152545 ++to 0.00152545
+Heightened Def Con from 0.000523486 +to 0.000523486
 
-Date: Thu Dec 30 14:07:03 2021
-Total elapsed time: 6.242 seconds.
+Date: Thu Dec 30 16:27:02 2021
+Total elapsed time: 13.298 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 194951
-traniter = 190772
-tranpoints = 91056
-accept = 69331
-rejected = 21734
-matrix size = 168
-fillins = 277
+totiter = 499182
+traniter = 494915
+tranpoints = 217852
+accept = 171875
+rejected = 45979
+matrix size = 166
+fillins = 357
 solver = Normal
-Thread vector: 15.5/9.8[5] 4.3/3.2[5] 3.6/2.4[5] 0.9/1.8[1]  2592/500
-Matrix Compiler1: 28.14 KB object code size  9.7/2.8/[1.3]
-Matrix Compiler2: 19.13 KB object code size  3.4/3.5/[1.2]
+Thread vector: 13.8/8.2[5] 4.4/3.1[5] 3.7/2.4[5] 0.9/1.7[1]  2592/500
+Matrix Compiler1: 37.15 KB object code size  7.0/3.9/[1.8]
+Matrix Compiler2: 20.50 KB object code size  3.3/3.9/[1.9]
 
