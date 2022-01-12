@@ -7,7 +7,8 @@
 
 #include "pwm.h"
 
-void pwm_change_duty(uint8_t duty_percentage)
+void pwm_change_duty(uint16_t duty)
 {
-	htim2.Instance->CCR3 = duty_percentage;
+	if(duty>1000) duty = 1000;
+	htim2.Instance->CCR3 = duty;
 }

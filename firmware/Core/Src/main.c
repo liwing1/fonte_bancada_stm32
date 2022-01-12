@@ -105,7 +105,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   uint32_t delay = 0;
-  uint8_t duty = 0;
+  uint16_t duty = 0;
 
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_3);
 
@@ -121,12 +121,12 @@ int main(void)
     /* USER CODE BEGIN 3 */
 	  if(delay < HAL_GetTick())
 	  {
-		  delay = HAL_GetTick() + DELAY_1_SEG;
+		  delay = HAL_GetTick() + (DELAY_1_SEG/4);
 
 		  HAL_GPIO_TogglePin(LED_STATUS_GPIO_Port, LED_STATUS_Pin);
 
-		  pwm_change_duty(duty);
-		  if(duty >= 100) duty = 0;
+//		  pwm_change_duty(duty);
+//		  if(duty >= 100) duty = 0;
 
 		  dbg_printf("Hello, World: %d!\r\n", duty++);
 	  }
@@ -273,9 +273,9 @@ static void MX_TIM2_Init(void)
 
   /* USER CODE END TIM2_Init 1 */
   htim2.Instance = TIM2;
-  htim2.Init.Prescaler = 24;
+  htim2.Init.Prescaler = 72;
   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim2.Init.Period = 100;
+  htim2.Init.Period = 1000;
   htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   if (HAL_TIM_Base_Init(&htim2) != HAL_OK)
@@ -298,7 +298,7 @@ static void MX_TIM2_Init(void)
     Error_Handler();
   }
   sConfigOC.OCMode = TIM_OCMODE_PWM1;
-  sConfigOC.Pulse = 50;
+  sConfigOC.Pulse = 500;
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
   if (HAL_TIM_PWM_ConfigChannel(&htim2, &sConfigOC, TIM_CHANNEL_3) != HAL_OK)

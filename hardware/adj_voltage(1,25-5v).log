@@ -1,0 +1,108 @@
+Circuit: * D:\Repos\fonte_bancada_stm32\hardware\adj_voltage(1,25-5v).asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.666667
+Gmin = 3.4946
+vernier = 0.888888
+vernier = 1
+Gmin = 0.528136
+Gmin = 0.0567082
+Gmin = 0.006089
+Gmin = 0.000653801
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.000563546
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+Gmin = 0.000550574
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 0.378788%
+Source Step = 0.852273%
+Source Step = 1.32576%
+Source Step = 1.79924%
+Source Step = 2.27273%
+vernier = 0.0234375
+Source Step = 2.91193%
+Source Step = 3.62216%
+Source Step = 4.33239%
+Source Step = 5.04261%
+Source Step = 5.75284%
+vernier = 0.0351563
+Source Step = 6.67614%
+Source Step = 7.74148%
+Source Step = 8.80682%
+Source Step = 9.87216%
+Source Step = 10.9375%
+vernier = 0.0527344
+Source Step = 12.2692%
+Source Step = 13.8672%
+Source Step = 15.4652%
+Source Step = 17.0632%
+Source Step = 18.6612%
+vernier = 0.0791016
+Source Step = 20.5788%
+Source Step = 22.9759%
+Source Step = 25.3729%
+Source Step = 27.7699%
+Source Step = 30.1669%
+vernier = 0.118652
+Source Step = 32.9235%
+Source Step = 36.519%
+Source Step = 40.1145%
+Source Step = 43.71%
+Source Step = 47.3056%
+vernier = 0.177979
+Source Step = 51.2607%
+Source Step = 56.6539%
+Source Step = 62.0472%
+Source Step = 67.4405%
+Source Step = 72.8338%
+vernier = 0.266968
+Source Step = 78.4968%
+Source Step = 85.171%
+vernier = 0.0166855
+Source Step = 84.994%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 100%
+Source Step = 99.0118%
+Source stepping failed
+
+Pseudo Transient succeeded in finding the operating point at 1.8756 s.
+
+Date: Wed Jan 12 15:06:48 2022
+Total elapsed time: 5.294 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 150026
+traniter = 110130
+tranpoints = 46448
+accept = 37561
+rejected = 9645
+matrix size = 151
+fillins = 315
+solver = Normal
+Thread vector: 14.4/8.6[5] 3.3/2.7[4] 1.6/1.9[1] 0.8/1.8[1]  2592/500
+Matrix Compiler1: 27.42 KB object code size  5.3/2.9/[1.7]
+Matrix Compiler2: 18.66 KB object code size  2.8/3.4/[1.2]
+

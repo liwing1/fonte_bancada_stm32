@@ -10,6 +10,6 @@
 
 #include "main.h"
 
-void pwm_change_duty(uint8_t);
+void pwm_change_duty(uint16_t);
 
 #endif /* INC_PWM_H_ */
