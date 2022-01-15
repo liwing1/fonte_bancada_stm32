@@ -44,6 +44,7 @@ extern "C" {
 /* USER CODE BEGIN EC */
 extern UART_HandleTypeDef huart1;
 extern TIM_HandleTypeDef htim2;
+extern TIM_HandleTypeDef htim1;
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
@@ -77,5 +78,3 @@ void Error_Handler(void);
 #endif
 
 #endif /* __MAIN_H */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

@@ -9,6 +9,5 @@
 
 void pwm_change_duty(uint16_t duty)
 {
-	if(duty>1000) duty = 1000;
-	htim2.Instance->CCR3 = duty;
+	htim1.Instance->CCR1 = duty;
 }
